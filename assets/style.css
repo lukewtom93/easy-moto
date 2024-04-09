@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: aqua;
+}
+
+/* Main Content */
+main {
+    background-color: bisque;
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: cadetblue;
+}
