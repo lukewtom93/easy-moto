@@ -104,6 +104,26 @@ main {
   margin-top: 53px;
 }
 
+/* Hero Section */
+#hero {
+  height: 350px;
+  width: 100%;
+  background: url("images/hero-image.jpeg") no-repeat right center/cover;
+  
+  
+}
+
+#hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+/*  background-color: rgba(0, 0, 0, 0.5);*/
+  padding: 100px 20px;
+  box-shadow: 0px 0px 10px #3a3a3a;
+}
+
 /* Footer */
 footer {
   background-color: cadetblue;
