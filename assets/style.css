@@ -1,108 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: "Hind Madurai", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Hind Madurai", sans-serif;
 }
 
 /* Header */
 header {
-    background-color: aqua;
-    padding: 0 1rem;
-    z-index: 99;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: aqua;
+  padding: 0 1rem;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header>a {
-    text-decoration: none;
-    color: black;
-  
-  
-  }
-  
-  h1 {
-    font-size: 180%;
-    font-family: "Audiowide", sans-serif;
-    text-transform: uppercase;
-    padding-bottom: 9px;
-    padding-top: 0.5rem;
-    
-    
-    
-  }
-  
-  #menu {
-    padding: 2px;
-    list-style-type: none;
-    font-size: 110%;
-  
-  }
-  
-  nav {
-    position: absolute;
-    background-color: aqua;
-    width: 100%;
-    left: 0px;
-    padding: 0 1rem;
-    display: none;
-    top: 100%;
-  }
-  
-  
-  
-  
-  
-  .active {
-    color: red;
-    margin-inline-end: 5px;
-  
-  }
-  
-  #nav-toggle:checked~nav {
-    display: flex;
-    justify-content: flex-end;
-  
-  }
-  
-  #nav-toggle {
-    display: none;
-  
-  }
-  
-  .nav-toggle-label {
-    font-size: 1.3rem;
-    position: fixed;
-    top: 14px;
-    right: 17px;
-    
-  }
-  
-  li a {
-    text-decoration: none;
-    color: black;
-    padding-bottom: 2px;
-  }
+  text-decoration: none;
+  color: black;
+
+
+}
+
+h1 {
+  font-size: 180%;
+  font-family: "Audiowide", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 9px;
+  padding-top: 0.5rem;
+
+
+
+}
+
+#menu {
+  padding: 2px;
+  list-style-type: none;
+  font-size: 110%;
+
+}
+
+nav {
+  position: absolute;
+  background-color: aqua;
+  width: 100%;
+  left: 0px;
+  padding: 0 1rem;
+  display: none;
+  top: 100%;
+}
+
+
+
+
+
+.active {
+  color: red;
+
+
+}
+
+#nav-toggle:checked~nav {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+#nav-toggle {
+  display: none;
+
+}
+
+.nav-toggle-label {
+  font-size: 1.3rem;
+  position: fixed;
+  top: 14px;
+  right: 17px;
+
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 2px;
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* Main Content */
 main {
-    background-color: bisque;
-    flex: 1 0 auto;
-    margin-top: 53px;
+  background-color: bisque;
+  flex: 1 0 auto;
+  margin-top: 53px;
 }
 
 /* Footer */
 footer {
-    background-color: cadetblue;
+  background-color: cadetblue;
+}
+
+/* Screen size larger than 768px */
+@media screen and (min-width: 768px) {
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    width: 100%;
+    top: auto;
+
+  }
+
+  #menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  li a {
+    padding: 0 20px;
+  }
+
+
 }
