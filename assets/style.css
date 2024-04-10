@@ -13,6 +13,11 @@ body {
   font-family: "Hind Madurai", sans-serif;
 }
 
+h1, h2 {
+  font-family: "Audiowide", sans-serif;
+  text-transform: uppercase;
+}
+
 /* Header */
 header {
   background-color: aqua;
@@ -109,7 +114,20 @@ main {
   height: 350px;
   width: 100%;
   background: url("images/hero-image.jpeg") no-repeat right center/cover;
-  
+  position: relative;
+
+
+}
+
+.fade {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  background-image: linear-gradient(to left,
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 1.5) 100%);
   
 }
 
@@ -117,11 +135,14 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 50%;
-  height: 100%;
-/*  background-color: rgba(0, 0, 0, 0.5);*/
+  width: 50%;  height: 100%;
   padding: 100px 20px;
-  box-shadow: 0px 0px 10px #3a3a3a;
+  color: #ffffff;
+  
+}
+
+#courses-button {
+  max-width: 150px;
 }
 
 /* Footer */
