@@ -113,6 +113,7 @@ main {
   background-color: bisque;
   flex: 1 0 auto;
   margin-top: 53px;
+  
 }
 
 /* Hero Section */
@@ -134,7 +135,7 @@ main {
   background-image: linear-gradient(to left,
       rgba(255, 255, 255, 0),
       rgba(0, 0, 0, 1.5) 100%);
-  
+  z-index: 5;
 }
 
 #hero-text {
@@ -144,7 +145,7 @@ main {
   width: 50%;  height: 100%;
   padding: 100px 20px;
   color: #ffffff;
-  
+  z-index: 100;
 }
 
 #courses-button {
@@ -155,12 +156,16 @@ main {
 
 #riding-journey {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 5px;
   
 }
 
 #riding-journey-dropdown h4 {
   background-color: #5f9ea0;
+  
 
 }
 
