@@ -14,7 +14,7 @@ body {
   
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: "Audiowide", sans-serif;
   text-transform: uppercase;
 }
@@ -149,6 +149,35 @@ main {
 
 #courses-button {
   max-width: 150px;
+}
+
+/* How to start your riding journey */
+
+#riding-journey {
+  text-align: center;
+  padding: 5px;
+  
+}
+
+#riding-journey-dropdown h4 {
+  background-color: #5f9ea0;
+
+}
+
+#journey-chevron {
+  display: none;
+}
+
+#age-16 {
+  display: none;
+  
+}
+
+
+#journey-chevron:checked~#riding-journey-dropdown div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Footer */
