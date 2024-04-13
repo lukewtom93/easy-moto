@@ -234,6 +234,13 @@ display: none;
   justify-content: center;
 }
 
+/* Easy Rider Club */
+
+#easy-rider-club-form {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Footer */
 footer {
   background-color: #5f9ea0;
