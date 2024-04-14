@@ -177,7 +177,8 @@ main {
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-content: baseline;  
+  max-width: 300px;
+  margin: auto;
 }
 
 
