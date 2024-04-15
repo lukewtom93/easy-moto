@@ -336,4 +336,12 @@ footer li {
   .journey-age-16, .journey-age-17, .journey-age-19, .journey-age-24 {
     display: block;
   }
+
+  .chevron-checkbox {
+    display: none;
+  }
+
+  .background-bar-colour {
+    justify-content: center;
+  }
 }
