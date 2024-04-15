@@ -318,16 +318,15 @@ footer li {
     padding: 0px 5px;
   }
 
-  .riding-journey {
+
+  .journey-boxes {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
   }
-
-  .chevron-checkbox {
-    display: none;
+  
+  .journey-age-16, .journey-age-17, .journey-age-19, .journey-age-24 {
+    display: block;
   }
-
 
 
 }
