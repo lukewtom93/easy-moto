@@ -38,14 +38,65 @@
 
     <!-- Main Content -->
     <main>
-        <form action="POST" id="easy-rider-club-form">
-            <label for="first-name">First Name</label>
-            <input type="text" name="first-name" id="first-name" required>
-            <label for="surname">Surname</label>
-            <input type="text" name="surname" id="surname" required>
-            <label for="bike-type">What do you ride?</label>
-            <input type="text" name="bike-type" id="bike-type">
-        </form>
+        <h2>Easy Rider Club</h2>
+        <p>Revving engines, open roads, and the wind in our faces, welcome to The Easy Rider Club! As riders, we share
+            a passion for the thrill of the ride, the camaraderie of fellow enthusiasts, and the freedom that comes with
+            exploring the world on two wheels.</p>
+        <p>From seaseoned riders to freshly qulified all is welcome.</p>
+        <p>Sign up for some weekly updates on our rides and social events</p>
+
+        <!-- Easy Rider sign up form -->
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <fieldset>
+                <legend>Your details</legend>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Riders Name" required>
+                </div>
+                <div>
+                    <label for="email-address">Email</label>
+                    <input type="email" id="email-address" name="email-address" placeholder="youremail@mail.com" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Rider Info</legend>
+                <div>
+                    <label for="riding-experience">Riding Experience</label>
+                    <select name="riding-experience" id="riding-experience">
+                        <option value="blank">--</option>
+                        <option value="under-a-year">under a year</option>
+                        <option value="1-2">1-2 years</option>
+                        <option value="2-5">2-5 years</option>
+                        <option value="5-10">5-10 years</option>
+                        <option value="10+">10+ years</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Type of Riding</p>
+                    
+
+                    <label for="offroad">offroad</label>
+                    <input type="checkbox" id="offroad" name="offroad" value="offroad">
+
+                    <label for="road">Road</label>
+                    <input type="checkbox" name="road" id="road" value="road">
+
+                    <label for="track">Track</label>
+                    <input type="checkbox" name="tarck" id="track" value="track">
+
+                    <label for="city">City</label>
+                    <input type="checkbox" name="city" id="city" value="city">
+                </div>
+
+                <label for="your-bikes">Your Bikes</label>
+                <textarea name="your-bikes" id="your-bikes" cols="30" rows="2" placeholder="List as many bikes as you want"></textarea>
+            </fieldset>
+
+            <input type="submit">
+
+          
+        </form>    
     </main>
 
     <!-- Footer -->
