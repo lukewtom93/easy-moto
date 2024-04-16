@@ -309,6 +309,24 @@ legend {
   margin-bottom: 15px;
 }
 
+#submit {
+  padding: 5px 10px;
+  color: bisque;
+  font-family: "Audiowide", sans-serif;
+  background-color: #5f9ea0;
+  border: 2px solid bisque;
+  margin: 15px;
+}
+
+#submit:active {
+  color: #5f9ea0;
+  background-color: bisque;
+}
+
+.end {
+  text-align: end;
+}
+
 /* Footer */
 footer {
   background-color: #5f9ea0;
