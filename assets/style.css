@@ -266,9 +266,47 @@ hr {
 
 /* Easy Rider Club */
 
-#easy-rider-club-form {
-  display: flex;
-  flex-direction: column;
+#easy-rider-form-section {
+  background-color: #5f9ea0;
+  margin: 20px 0;
+}
+
+#easy-rider-form {
+  padding: 10px;
+}
+
+
+
+.hide {
+  display: none;
+}
+
+.input {
+  border: 2px solid black;
+  margin: 10px;
+  
+}
+
+fieldset {
+  border: 2px solid bisque;
+}
+
+fieldset p {
+  padding: 10px;
+}
+
+legend {
+  align-self: self-start;
+  font-family: "Audiowide", sans-serif;
+  padding: 2px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.checkbox {
+  margin-bottom: 15px;
 }
 
 /* Footer */
