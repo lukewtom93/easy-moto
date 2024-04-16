@@ -288,11 +288,14 @@ hr {
 
 #club-welcome p {
   font-weight: 800;
+  max-width: 460px;
+  margin: auto;
 }
 
 #easy-rider-form-section {
   background-color: #5f9ea0;
-  margin: 20px 0;
+  margin: 0 auto 50px auto;
+  max-width: 320px;
   position: relative;
   z-index: 11;
   
@@ -401,14 +404,7 @@ footer li {
     padding: 0px 5px;
   }
 
-  /* Easy Rider Club */
-
-  #easy-rider-form-section {
-    margin: 20px 90px;
-    
-
-    
-  }
+  
 
 
 
@@ -436,4 +432,13 @@ footer li {
   .background-bar-colour {
     justify-content: center;
   }
+
+  #bike-club-logo {
+    position: relative;
+    opacity: 1;
+    max-height: 190px;
+    width: auto;
+  }
+
+
 }
