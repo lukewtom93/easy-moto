@@ -273,11 +273,16 @@ hr {
   width: 100%;
   object-fit: cover;
   z-index: 5;
-  opacity: .4;
+  opacity: .2;
+}
+
+#club-welcome h2 {
+  margin-bottom: 10px;
 }
 
 #club-welcome {
   position: relative;
+  margin: 20px;
   z-index: 10;
 }
 
@@ -394,6 +399,15 @@ footer li {
 
   .active {
     padding: 0px 5px;
+  }
+
+  /* Easy Rider Club */
+
+  #easy-rider-form-section {
+    position: absolute;
+    
+
+    
   }
 
 
