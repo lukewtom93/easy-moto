@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: "Hind Madurai", sans-serif;
+  
 
 }
 
@@ -265,11 +266,30 @@ hr {
 }
 
 /* Easy Rider Club */
+#bike-club-logo {
+  display: block;
+  margin: 30px auto;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  z-index: 5;
+  opacity: .4;
+}
 
+#club-welcome {
+  position: relative;
+  z-index: 10;
+}
+
+#club-welcome p {
+  font-weight: 800;
+}
 
 #easy-rider-form-section {
   background-color: #5f9ea0;
   margin: 20px 0;
+  position: relative;
+  z-index: 11;
   
 }
 
