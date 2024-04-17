@@ -125,7 +125,7 @@ main {
 
 /* Hero Section */
 #hero {
-  height: 350px;
+  height: 50vh;
   width: 100%;
   background: url("images/hero-image.jpeg") no-repeat right center/cover;
   position: relative;
