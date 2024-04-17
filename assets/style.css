@@ -162,8 +162,9 @@ main {
 
 /* Map */
 
+
 #map {
-  margin: 10px;
+  width: 100%;
 }
 
 /* How to start your riding journey */
