@@ -125,7 +125,7 @@ main {
 
 /* Hero Section */
 #hero {
-  height: 50vh;
+  height: 300px;
   width: 100%;
   background: url("images/hero-image.jpeg") no-repeat right center/cover;
   position: relative;
@@ -147,11 +147,8 @@ main {
 }
 
 #hero-text {
-
   max-width: 200px;
-  
-  padding-left: 30px;
-  margin-top: 70px;
+  padding: 60px 0 60px 30px;
   color: #ffffff;
   z-index: 90;
   position: absolute;
@@ -162,8 +159,7 @@ main {
 }
 
 #middle {
-  background-color: transparent;
-  height: 25vh;
+  height: 40vh;
   width: 100%;
 }
 /* Map */

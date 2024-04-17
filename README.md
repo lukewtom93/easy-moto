@@ -1,6 +1,6 @@
 # Easy Moto
 
-Easy Moto is a motorcycle training service where individuals can learn to ride and accuare licences in a safe environment, taught by our experienced and certified instructors. Also a social accpect is prevalent, where we encourage comunity rides and social meet ups. The site is designed to lay out the structure of how to get a motorcycle licence and supply support for future hobbiest through the Easy Rider Club.
+Easy Moto is a motorcycle training service where individuals can learn to ride and acquire licenses in a safe environment, taught by our experienced and certified instructors. Also, a social aspect is prevalent, where we encourage community rides and social meet-ups. The site is designed to lay out the structure of how to get a motorcycle license and supply support for future hobbyists through the Easy Rider Club.
 
 ## Credits
 
