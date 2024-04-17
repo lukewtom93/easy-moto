@@ -394,19 +394,19 @@ footer li {
   #menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .nav-toggle-label {
     display: none;
   }
 
-  li a {
+  #menu a {
     padding: 0 20px;
   }
 
   .active {
-    padding: 0px 5px;
+    padding: 0 5px;
   }
 
   
