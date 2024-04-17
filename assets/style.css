@@ -165,6 +165,7 @@ main {
 
 #map {
   width: 100%;
+  border: none;
 }
 
 /* How to start your riding journey */
