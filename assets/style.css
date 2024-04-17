@@ -160,6 +160,12 @@ main {
   max-width: 150px;
 }
 
+/* Map */
+
+#map {
+  margin: 10px;
+}
+
 /* How to start your riding journey */
 
 #riding-journey {
