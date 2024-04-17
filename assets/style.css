@@ -169,9 +169,14 @@ main {
 /* Map */
 
 
-#map {
+#map-section {
   width: 100%;
   height: 25vh;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
   border: none;
 }
 
