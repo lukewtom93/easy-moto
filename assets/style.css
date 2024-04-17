@@ -172,11 +172,28 @@ main {
   background-color: #ffffff;
 }
 
-#middle {
+/* Intro */
+#intro {
   height: 40vh;
   width: 100%;
   padding: 10px;
 }
+
+#intro-image-container {
+  height: 120px;
+  width: 100%;
+  display: flex;
+}
+
+#intro-image {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 /* Map */
 
 
