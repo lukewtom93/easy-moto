@@ -146,11 +146,9 @@ main {
 }
 
 #hero-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 50%;
-  height: 100%;
+
+  max-width: 200px;
+  
   padding-left: 30px;
   margin-top: 70px;
   color: #ffffff;
