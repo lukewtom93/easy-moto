@@ -9,26 +9,66 @@ Easy Moto is a motorcycle training service where individuals can learn to ride a
 ### Existing Features
 
 - _Navigation Bar_
-- _Hero Image_
-- _Map_
-- _Courses Overview_
-- _How to star your riding journey_
-- _Easy Rider Club sign up form_
 
-### Features Left to Impliment
+    - Features on each page, fully responsive and easy to navigate. Link text changes colour and background on the active page. link to the home page in the Easy Moto logo.
+    - This feature will provide a seamless and simple browsing experience for the user.
+
+![Nav Bar](assets/images/easy_moto_navigation.png)
+
+- _Hero Image_
+
+    - The hero Image gives a clear target to the site, with a text overlay and a call to action button to move the user to the next page.
+    - A fade across the image creates a good contrast for the text overlay 
+
+![Hero Image](assets/images/hero_image.png)
+
+- _Map_
+
+    -This helps the customer find the location of the business with added contact information placed next to the map.
+    -It nicely adapts to different screen sizes allowing a great user experience.
+
+![Map](assets/images/easy_moto_map.png)
+
+- _Courses Overview_
+
+    - The course that Easy Moto provides is laid out in an easy-to-read format and responsive to different screen sizes.
+    - Separate coloured text blocks make the CBT and Full Licence simple to navigate.
+
+![Courses](assets/images/easy_moto_courses.png)
+
+- _How to start your riding journey_
+
+    - Up to 768px screens will get multiple drop-down boxes relating to age, starting with age 16 which is already open when the page is loaded, to help show the function to the user.
+    - This section provides a clear outline of what is needed to start riding a motorbike.
+
+![How to Start](assets/images/how_to_start.png)
+
+- _Easy Rider Club sign-up form_
+
+    - A form with mandatory user details inputs and optional riding experience info.
+    - The form answers will help for further improvements for the user.
+
+![Sign up Form](assets/images/sign_up_form.png)
+
+
+### Features Left to Implement
 
 - _Sign up form for courses_
+
+    - Some fields for submitting payment of the courses and further expansion of the amount on offer.
 
 ## Testing
 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official W3C HTML Validator
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official W3C CSS Validator (Jigsaw)
 
 ### Unfixed Bugs
+
+- No unfixed bugs
 
 ## Deployment
 
