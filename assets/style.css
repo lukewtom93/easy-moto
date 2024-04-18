@@ -146,7 +146,7 @@ main {
 
 #hero-text {
   max-width: 200px;
-  padding: 60px 0 60px 30px;
+  padding: 40px 0 60px 30px;
   color: #ffffff;
   z-index: 90;
   position: absolute;
@@ -245,12 +245,12 @@ main {
   color: bisque;
 }
 
-#courses h2 {
-  padding: 5px;
+#courses-section h2 {
+  padding: 5px 20px;
 }
 
-#courses p {
-  padding-bottom: 5px;
+#courses-section p {
+  padding: 5px 20px;
 }
 /* How to start your riding journey */
 
@@ -464,11 +464,29 @@ footer li {
 
 }
 
-/* Screen size larger than 425px */
+/* (Tablets) Screen size larger than 425px */
 @media screen and (min-width: 425px){
   
+
+  #hero-text {
+    max-width: 300px;
+    padding-left:50px;
+    font-size: 120%;
+  }
+
+  #intro p {
+    padding: 0 70px;
+  }
+
+  /* Courses Page */
+
+  #courses {
+    display: flex;
+  }
+
   #courses-text {
     display: flex;
+    max-height: 200px;
   }
 
   #courses-image {
@@ -489,6 +507,8 @@ footer li {
   .align-start {
     text-align: start;
   }
+
+
 
   /* Location */
 
@@ -529,7 +549,7 @@ footer li {
 
 }
 
-/* Screen size larger than 768px */
+/* (laptops) Screen size larger than 768px */
 @media screen and (min-width: 768px) {
 
   nav {
