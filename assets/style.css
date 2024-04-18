@@ -51,10 +51,8 @@ h1 {
   text-transform: uppercase;
   padding-bottom: 9px;
   padding-top: 0.5rem;
-
-
-
 }
+
 
 #menu {
   padding: 2px;
@@ -176,21 +174,36 @@ main {
 
 /* Intro */
 #intro {
-  height: 40vh;
   width: 100%;
   padding: 10px;
 }
 
 /* Location */
 
+#location {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-grow: 1;
+}
 
-
-
+#location-heading {
+  padding: 5px;
+  background-color: #5f9ea0;
+  color: bisque;
+}
 
 #location div {
   display: flex;
+  flex-direction: column;
   text-align: center;
-  height: 30px;
+  padding: 5px;
+}
+
+#location li {
+  list-style-type: none;
 }
 
 
