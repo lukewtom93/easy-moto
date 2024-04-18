@@ -207,6 +207,10 @@ main {
   list-style-type: none;
 }
 
+#location-tablet-size {
+  display: none;
+}
+
 
 /* Map */
 
@@ -485,6 +489,44 @@ footer li {
   .align-start {
     text-align: start;
   }
+
+  /* Location */
+
+  #location-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  #location {
+    display: none;
+  }
+
+  #location-tablet-size {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+  }
+
+  #location-tablet-size div {
+    padding: 5px;
+  }
+
+  #location-tablet-size li {
+    list-style-type: none;
+  }
+
+  #location-tablet-container {
+    max-height: 300px;
+    background-color: #5f9ea0;
+    color: bisque;
+  }
+
+  /* Map */
+
+  #map-section {
+    height: 300px;
+  }
+
 }
 
 /* Screen size larger than 768px */
