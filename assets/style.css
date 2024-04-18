@@ -208,8 +208,32 @@ main {
   border: none;
 }
 
+/* Courses */
 
+#courses-image {
+  height: 200px;
+  width: auto;
+  background: url(images/intro-image.jpeg)no-repeat center/cover;
+}
 
+#courses-image2 {
+  height: 200px;
+  width: auto;
+  background: url(images/progression-image.jpeg)no-repeat center/cover;
+}
+
+#progression {
+  background-color: #5f9ea0;
+  color: bisque;
+}
+
+#courses h2 {
+  padding: 5px;
+}
+
+#courses p {
+  padding-bottom: 5px;
+}
 /* How to start your riding journey */
 
 #riding-journey {
@@ -420,6 +444,33 @@ footer li {
   display: flex;
   justify-content: center;
 
+}
+
+/* Screen size larger than 425px */
+@media screen and (min-width: 425px){
+  
+  #courses-text {
+    display: flex;
+  }
+
+  #courses-image {
+    display: flex;
+    width: 100%;
+  }
+
+  #progression {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #courses-image2 {
+    display: flex;
+    width: 100%;
+  }
+
+  .centered {
+    text-align: start;
+  }
 }
 
 /* Screen size larger than 768px */
